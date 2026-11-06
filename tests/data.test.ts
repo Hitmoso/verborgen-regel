@@ -58,7 +58,24 @@ describe('data', () => {
     expect(count('plaats')).toBeGreaterThanOrEqual(15);
   });
 
-  it('overrides is een object', () => {
+  it('item-ids zijn kebab-case en naam/emoji zijn niet leeg', () => {
+    for (const item of items) {
+      expect(item.id, item.id).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
+      expect(item.name.trim().length, item.id).toBeGreaterThan(0);
+      expect(item.emoji.trim().length, item.id).toBeGreaterThan(0);
+    }
+  });
+
+  it('elk item vind je in huis of buiten', () => {
+    for (const item of items) {
+      const ok = item.props.includes('in_huis') || item.props.includes('buiten');
+      expect(ok, item.id).toBe(true);
+    }
+  });
+
+  it('overrides is een gewoon object', () => {
+    expect(overrides).not.toBeNull();
+    expect(Array.isArray(overrides)).toBe(false);
     expect(typeof overrides).toBe('object');
   });
 });

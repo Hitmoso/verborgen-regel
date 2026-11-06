@@ -10,6 +10,7 @@
       "heeft_vier_poten",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "eetbaar",
       "buiten",
       "in_nederland",
       "maakt_geluid"
@@ -40,6 +41,7 @@
       "dier",
       "zoogdier",
       "heeft_vier_poten",
+      "eetbaar",
       "buiten",
       "zacht",
       "in_nederland",
@@ -56,6 +58,8 @@
       "zoogdier",
       "heeft_vier_poten",
       "zwaarder_dan_mens",
+      "eetbaar",
+      "buiten",
       "in_nederland",
       "maakt_geluid"
     ]
@@ -84,6 +88,7 @@
       "kan_zwemmen",
       "heeft_vier_poten",
       "in_huis",
+      "buiten",
       "zacht",
       "in_nederland",
       "maakt_geluid"
@@ -98,8 +103,8 @@
       "dier",
       "zoogdier",
       "heeft_vier_poten",
-      "heeft_scherpe_rand",
       "in_huis",
+      "buiten",
       "zacht",
       "in_nederland",
       "maakt_geluid"
@@ -114,6 +119,7 @@
       "dier",
       "zoogdier",
       "heeft_vier_poten",
+      "eetbaar",
       "buiten",
       "zacht",
       "in_nederland"
@@ -132,21 +138,6 @@
       "in_huis",
       "zacht",
       "in_nederland"
-    ]
-  },
-  {
-    "id": "muis",
-    "name": "Muis",
-    "emoji": "🐁",
-    "props": [
-      "levend",
-      "dier",
-      "zoogdier",
-      "heeft_vier_poten",
-      "past_in_broekzak",
-      "zacht",
-      "in_nederland",
-      "maakt_geluid"
     ]
   },
   {
@@ -262,40 +253,6 @@
       "heeft_vier_poten",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "heeft_scherpe_rand",
-      "buiten",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "olifant",
-    "name": "Olifant",
-    "emoji": "🐘",
-    "props": [
-      "levend",
-      "dier",
-      "zoogdier",
-      "kan_zwemmen",
-      "heeft_vier_poten",
-      "groter_dan_koelkast",
-      "zwaarder_dan_mens",
-      "buiten",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "tijger",
-    "name": "Tijger",
-    "emoji": "🐅",
-    "props": [
-      "levend",
-      "dier",
-      "zoogdier",
-      "kan_zwemmen",
-      "heeft_vier_poten",
-      "groter_dan_koelkast",
-      "zwaarder_dan_mens",
-      "heeft_scherpe_rand",
       "buiten",
       "maakt_geluid"
     ]
@@ -312,24 +269,8 @@
       "heeft_vier_poten",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "heeft_scherpe_rand",
       "buiten",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "beer",
-    "name": "Beer",
-    "emoji": "🐻",
-    "props": [
-      "levend",
-      "dier",
-      "zoogdier",
-      "heeft_vier_poten",
-      "groter_dan_koelkast",
-      "zwaarder_dan_mens",
-      "heeft_scherpe_rand",
-      "buiten",
+      "met_water",
       "maakt_geluid"
     ]
   },
@@ -410,6 +351,21 @@
     ]
   },
   {
+    "id": "dolfijn",
+    "name": "Dolfijn",
+    "emoji": "🐬",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "maakt_geluid"
+    ]
+  },
+  {
     "id": "zeehond",
     "name": "Zeehond",
     "emoji": "🦭",
@@ -463,6 +419,7 @@
       "dier",
       "kan_zwemmen",
       "kan_vliegen",
+      "eetbaar",
       "buiten",
       "met_water",
       "in_nederland",
@@ -505,7 +462,6 @@
       "levend",
       "dier",
       "kan_vliegen",
-      "heeft_scherpe_rand",
       "buiten",
       "in_nederland",
       "maakt_geluid"
@@ -545,6 +501,8 @@
       "levend",
       "dier",
       "kan_vliegen",
+      "in_huis",
+      "in_nederland",
       "maakt_geluid"
     ]
   },
@@ -556,7 +514,6 @@
       "levend",
       "dier",
       "kan_vliegen",
-      "heeft_scherpe_rand",
       "buiten",
       "maakt_geluid"
     ]
@@ -595,6 +552,7 @@
       "levend",
       "dier",
       "past_in_broekzak",
+      "buiten",
       "zacht",
       "in_nederland",
       "maakt_geluid"
@@ -786,32 +744,6 @@
     ]
   },
   {
-    "id": "mug",
-    "name": "Mug",
-    "emoji": "🦟",
-    "props": [
-      "levend",
-      "dier",
-      "kan_vliegen",
-      "past_in_broekzak",
-      "in_nederland",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "vlieg",
-    "name": "Vlieg",
-    "emoji": "🪰",
-    "props": [
-      "levend",
-      "dier",
-      "kan_vliegen",
-      "past_in_broekzak",
-      "in_nederland",
-      "maakt_geluid"
-    ]
-  },
-  {
     "id": "vlinder",
     "name": "Vlinder",
     "emoji": "🦋",
@@ -851,17 +783,6 @@
     ]
   },
   {
-    "id": "spin",
-    "name": "Spin",
-    "emoji": "🕷️",
-    "props": [
-      "levend",
-      "dier",
-      "past_in_broekzak",
-      "in_nederland"
-    ]
-  },
-  {
     "id": "regenworm",
     "name": "Regenworm",
     "emoji": "🪱",
@@ -897,6 +818,7 @@
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
       "bevat_hout",
+      "heeft_scherpe_rand",
       "buiten",
       "in_nederland"
     ]
@@ -910,13 +832,14 @@
       "plant",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_hout",
       "buiten"
     ]
   },
   {
     "id": "appelboom",
     "name": "Appelboom",
-    "emoji": "🍎",
+    "emoji": "🌳",
     "props": [
       "levend",
       "plant",
@@ -930,7 +853,21 @@
   {
     "id": "kastanjeboom",
     "name": "Kastanjeboom",
-    "emoji": "🌰",
+    "emoji": "🌳",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "wilg",
+    "name": "Wilg",
+    "emoji": "🌳",
     "props": [
       "levend",
       "plant",
@@ -1000,17 +937,6 @@
     ]
   },
   {
-    "id": "brandnetel",
-    "name": "Brandnetel",
-    "emoji": "🌿",
-    "props": [
-      "levend",
-      "plant",
-      "buiten",
-      "in_nederland"
-    ]
-  },
-  {
     "id": "gras",
     "name": "Gras",
     "emoji": "🌱",
@@ -1054,6 +980,7 @@
       "levend",
       "plant",
       "eetbaar",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1103,6 +1030,7 @@
       "buiten",
       "met_water",
       "in_nederland",
+      "maakt_geluid",
       "kan_heet_worden"
     ]
   },
@@ -1116,7 +1044,8 @@
       "zwaarder_dan_mens",
       "bevat_hout",
       "buiten",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1178,18 +1107,20 @@
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
       "buiten",
+      "maakt_geluid",
       "kan_heet_worden"
     ]
   },
   {
     "id": "noordpool",
     "name": "Noordpool",
-    "emoji": "🧊",
+    "emoji": "❄️",
     "props": [
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "buiten"
+      "buiten",
+      "met_water"
     ]
   },
   {
@@ -1213,6 +1144,7 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "buiten",
       "met_water",
       "in_nederland"
     ]
@@ -1225,7 +1157,10 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
       "in_huis",
+      "met_water",
       "in_nederland"
     ]
   },
@@ -1237,6 +1172,8 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
       "in_huis",
       "met_water",
       "in_nederland"
@@ -1262,6 +1199,7 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_hout",
       "in_huis",
       "in_nederland"
     ]
@@ -1274,6 +1212,10 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -1285,7 +1227,10 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "in_nederland"
+      "bevat_glas",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1296,6 +1241,9 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -1307,7 +1255,11 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "in_nederland"
+      "bevat_hout",
+      "bevat_glas",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1318,7 +1270,11 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "in_nederland"
+      "bevat_metaal",
+      "bevat_glas",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1329,7 +1285,11 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
-      "in_nederland"
+      "bevat_metaal",
+      "bevat_glas",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1340,9 +1300,11 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
       "buiten",
       "met_water",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1353,6 +1315,9 @@
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_hout",
+      "bevat_plastic",
       "buiten",
       "in_nederland"
     ]
@@ -1360,13 +1325,14 @@
   {
     "id": "dierentuin",
     "name": "Dierentuin",
-    "emoji": "🦒",
+    "emoji": "🐾",
     "props": [
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
       "buiten",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1382,16 +1348,16 @@
     ]
   },
   {
-    "id": "sauna",
-    "name": "Sauna",
-    "emoji": "🧖",
+    "id": "blokhut",
+    "name": "Blokhut",
+    "emoji": "🛖",
     "props": [
       "plaats",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
       "bevat_hout",
-      "in_nederland",
-      "kan_heet_worden"
+      "buiten",
+      "in_nederland"
     ]
   },
   {
@@ -1466,17 +1432,6 @@
     ]
   },
   {
-    "id": "raam",
-    "name": "Raam",
-    "emoji": "🪟",
-    "props": [
-      "voorwerp",
-      "bevat_glas",
-      "in_huis",
-      "in_nederland"
-    ]
-  },
-  {
     "id": "deur",
     "name": "Deur",
     "emoji": "🚪",
@@ -1485,7 +1440,8 @@
       "bevat_metaal",
       "bevat_hout",
       "in_huis",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1498,6 +1454,7 @@
       "bevat_plastic",
       "werkt_op_stroom",
       "in_huis",
+      "rond",
       "in_nederland",
       "maakt_geluid",
       "knoppen_of_scherm"
@@ -1558,6 +1515,20 @@
       "voorwerp",
       "bevat_metaal",
       "in_huis",
+      "rond",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "fonduepan",
+    "name": "Fonduepan",
+    "emoji": "🫕",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_huis",
+      "rond",
       "in_nederland",
       "kan_heet_worden"
     ]
@@ -1581,6 +1552,7 @@
       "voorwerp",
       "bevat_glas",
       "in_huis",
+      "met_water",
       "in_nederland"
     ]
   },
@@ -1603,6 +1575,7 @@
     "props": [
       "voorwerp",
       "in_huis",
+      "met_water",
       "in_nederland",
       "kan_heet_worden"
     ]
@@ -1651,6 +1624,7 @@
       "werkt_op_stroom",
       "in_huis",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
     ]
   },
@@ -1665,6 +1639,8 @@
       "bevat_glas",
       "bevat_plastic",
       "werkt_op_stroom",
+      "in_huis",
+      "buiten",
       "in_nederland",
       "maakt_geluid",
       "knoppen_of_scherm"
@@ -1709,6 +1685,7 @@
       "bevat_metaal",
       "bevat_plastic",
       "werkt_op_stroom",
+      "in_huis",
       "in_nederland",
       "maakt_geluid"
     ]
@@ -1752,6 +1729,7 @@
       "werkt_op_stroom",
       "in_huis",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
     ]
   },
@@ -1767,6 +1745,7 @@
       "werkt_op_stroom",
       "in_huis",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
     ]
   },
@@ -1795,7 +1774,9 @@
       "bevat_glas",
       "bevat_plastic",
       "werkt_op_stroom",
+      "in_huis",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
     ]
   },
@@ -1808,6 +1789,7 @@
       "bevat_metaal",
       "bevat_plastic",
       "werkt_op_stroom",
+      "in_huis",
       "in_nederland",
       "knoppen_of_scherm"
     ]
@@ -1822,6 +1804,7 @@
       "werkt_op_stroom",
       "buiten",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
     ]
   },
@@ -1836,33 +1819,9 @@
       "bevat_metaal",
       "werkt_op_stroom",
       "buiten",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "lift",
-    "name": "Lift",
-    "emoji": "🛗",
-    "props": [
-      "voorwerp",
-      "groter_dan_koelkast",
-      "zwaarder_dan_mens",
-      "bevat_metaal",
-      "werkt_op_stroom",
-      "heeft_motor",
       "in_nederland",
+      "maakt_geluid",
       "knoppen_of_scherm"
-    ]
-  },
-  {
-    "id": "batterij",
-    "name": "Batterij",
-    "emoji": "🔋",
-    "props": [
-      "voorwerp",
-      "past_in_broekzak",
-      "bevat_metaal",
-      "in_nederland"
     ]
   },
   {
@@ -1874,17 +1833,11 @@
       "past_in_broekzak",
       "bevat_metaal",
       "bevat_glas",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "bril",
-    "name": "Bril",
-    "emoji": "👓",
-    "props": [
-      "voorwerp",
-      "bevat_glas",
-      "in_nederland"
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -1894,6 +1847,7 @@
     "props": [
       "voorwerp",
       "bevat_glas",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1904,6 +1858,7 @@
     "props": [
       "voorwerp",
       "bevat_glas",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1915,7 +1870,9 @@
       "voorwerp",
       "bevat_metaal",
       "bevat_hout",
-      "in_nederland"
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1926,7 +1883,9 @@
       "voorwerp",
       "bevat_metaal",
       "heeft_scherpe_rand",
-      "in_nederland"
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1938,7 +1897,9 @@
       "bevat_metaal",
       "bevat_hout",
       "heeft_scherpe_rand",
-      "in_nederland"
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -1950,6 +1911,7 @@
       "bevat_metaal",
       "bevat_plastic",
       "heeft_scherpe_rand",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1960,17 +1922,19 @@
     "props": [
       "voorwerp",
       "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
   {
-    "id": "moer-en-bout",
-    "name": "Moer en bout",
+    "id": "bout",
+    "name": "Bout",
     "emoji": "🔩",
     "props": [
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1984,6 +1948,7 @@
       "bevat_metaal",
       "bevat_plastic",
       "heeft_scherpe_rand",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -1995,6 +1960,7 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2007,6 +1973,7 @@
       "past_in_broekzak",
       "bevat_metaal",
       "heeft_scherpe_rand",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2019,6 +1986,7 @@
       "past_in_broekzak",
       "bevat_metaal",
       "heeft_scherpe_rand",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2030,6 +1998,7 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2041,6 +2010,8 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -2052,6 +2023,7 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -2063,6 +2035,7 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
       "rond",
       "in_nederland"
     ]
@@ -2075,29 +2048,8 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_metaal",
+      "in_huis",
       "rond",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "bel",
-    "name": "Bel",
-    "emoji": "🔔",
-    "props": [
-      "voorwerp",
-      "bevat_metaal",
-      "in_nederland",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "pen",
-    "name": "Pen",
-    "emoji": "🖊️",
-    "props": [
-      "voorwerp",
-      "past_in_broekzak",
-      "bevat_plastic",
       "in_nederland"
     ]
   },
@@ -2110,6 +2062,7 @@
       "past_in_broekzak",
       "bevat_hout",
       "heeft_scherpe_rand",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2124,18 +2077,6 @@
     ]
   },
   {
-    "id": "injectiespuit",
-    "name": "Injectiespuit",
-    "emoji": "💉",
-    "props": [
-      "voorwerp",
-      "bevat_metaal",
-      "bevat_plastic",
-      "heeft_scherpe_rand",
-      "in_nederland"
-    ]
-  },
-  {
     "id": "tandenborstel",
     "name": "Tandenborstel",
     "emoji": "🪥",
@@ -2143,6 +2084,7 @@
       "voorwerp",
       "bevat_plastic",
       "in_huis",
+      "met_water",
       "in_nederland"
     ]
   },
@@ -2176,6 +2118,7 @@
     "props": [
       "voorwerp",
       "bevat_plastic",
+      "in_huis",
       "met_water",
       "in_nederland"
     ]
@@ -2188,7 +2131,8 @@
       "voorwerp",
       "in_huis",
       "met_water",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -2210,6 +2154,7 @@
     "props": [
       "voorwerp",
       "past_in_broekzak",
+      "buiten",
       "zacht",
       "in_nederland"
     ]
@@ -2220,6 +2165,7 @@
     "emoji": "🧶",
     "props": [
       "voorwerp",
+      "in_huis",
       "rond",
       "zacht",
       "in_nederland"
@@ -2232,8 +2178,20 @@
     "props": [
       "voorwerp",
       "bevat_metaal",
+      "in_huis",
       "buiten",
       "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "parasol",
+    "name": "Parasol",
+    "emoji": "⛱️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -2245,6 +2203,7 @@
       "voorwerp",
       "past_in_broekzak",
       "bevat_plastic",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2255,6 +2214,7 @@
     "props": [
       "voorwerp",
       "bevat_plastic",
+      "in_huis",
       "rond",
       "in_nederland"
     ]
@@ -2265,6 +2225,7 @@
     "emoji": "🥏",
     "props": [
       "voorwerp",
+      "kan_vliegen",
       "bevat_plastic",
       "buiten",
       "rond",
@@ -2301,6 +2262,7 @@
     "emoji": "🏀",
     "props": [
       "voorwerp",
+      "buiten",
       "rond",
       "in_nederland"
     ]
@@ -2311,8 +2273,11 @@
     "emoji": "🎈",
     "props": [
       "voorwerp",
+      "kan_vliegen",
+      "in_huis",
       "rond",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid"
     ]
   },
   {
@@ -2334,6 +2299,7 @@
       "voorwerp",
       "bevat_metaal",
       "bevat_hout",
+      "in_huis",
       "in_nederland",
       "maakt_geluid"
     ]
@@ -2344,7 +2310,9 @@
     "emoji": "🎻",
     "props": [
       "voorwerp",
+      "bevat_metaal",
       "bevat_hout",
+      "in_huis",
       "in_nederland",
       "maakt_geluid"
     ]
@@ -2356,6 +2324,7 @@
     "props": [
       "voorwerp",
       "bevat_hout",
+      "in_huis",
       "rond",
       "in_nederland",
       "maakt_geluid"
@@ -2368,6 +2337,7 @@
     "props": [
       "voorwerp",
       "bevat_metaal",
+      "in_huis",
       "in_nederland",
       "maakt_geluid"
     ]
@@ -2392,19 +2362,9 @@
     "props": [
       "voorwerp",
       "bevat_hout",
+      "buiten",
       "in_nederland",
       "kan_heet_worden"
-    ]
-  },
-  {
-    "id": "pijl-en-boog",
-    "name": "Pijl en boog",
-    "emoji": "🏹",
-    "props": [
-      "voorwerp",
-      "bevat_hout",
-      "heeft_scherpe_rand",
-      "in_nederland"
     ]
   },
   {
@@ -2414,16 +2374,6 @@
     "props": [
       "voorwerp",
       "groter_dan_koelkast",
-      "buiten",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "parasol",
-    "name": "Parasol",
-    "emoji": "⛱️",
-    "props": [
-      "voorwerp",
       "buiten",
       "in_nederland"
     ]
@@ -2446,6 +2396,7 @@
     "props": [
       "voorwerp",
       "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2456,29 +2407,9 @@
     "props": [
       "voorwerp",
       "heeft_wielen",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "winkelwagen",
-    "name": "Winkelwagen",
-    "emoji": "🛒",
-    "props": [
-      "voorwerp",
-      "heeft_wielen",
       "bevat_metaal",
       "bevat_plastic",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "rolstoel",
-    "name": "Rolstoel",
-    "emoji": "🦽",
-    "props": [
-      "voorwerp",
-      "heeft_wielen",
-      "bevat_metaal",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2489,6 +2420,9 @@
     "props": [
       "voorwerp",
       "heeft_wielen",
+      "bevat_metaal",
+      "bevat_plastic",
+      "buiten",
       "in_nederland"
     ]
   },
@@ -2566,7 +2500,9 @@
       "buiten",
       "met_water",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2584,7 +2520,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2602,7 +2540,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2620,7 +2560,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2638,7 +2580,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2655,7 +2599,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2665,13 +2611,16 @@
     "props": [
       "voorwerp",
       "heeft_wielen",
+      "groter_dan_koelkast",
       "zwaarder_dan_mens",
       "bevat_metaal",
       "bevat_plastic",
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2690,7 +2639,8 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2709,7 +2659,8 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2726,60 +2677,10 @@
       "bevat_plastic",
       "werkt_op_stroom",
       "heeft_motor",
-      "in_nederland",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "veerboot",
-    "name": "Veerboot",
-    "emoji": "⛴️",
-    "props": [
-      "voorwerp",
-      "groter_dan_koelkast",
-      "zwaarder_dan_mens",
-      "bevat_metaal",
-      "bevat_glas",
-      "heeft_motor",
       "buiten",
-      "met_water",
       "in_nederland",
-      "maakt_geluid"
-    ]
-  },
-  {
-    "id": "soep",
-    "name": "Soep",
-    "emoji": "🍲",
-    "props": [
-      "voorwerp",
-      "eetbaar",
-      "met_water",
-      "in_nederland",
-      "kan_heet_worden"
-    ]
-  },
-  {
-    "id": "hotdog",
-    "name": "Hotdog",
-    "emoji": "🌭",
-    "props": [
-      "voorwerp",
-      "eetbaar",
-      "in_nederland",
-      "kan_heet_worden"
-    ]
-  },
-  {
-    "id": "fonduepan",
-    "name": "Fonduepan",
-    "emoji": "🫕",
-    "props": [
-      "voorwerp",
-      "bevat_metaal",
-      "in_huis",
-      "in_nederland",
-      "kan_heet_worden"
+      "maakt_geluid",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2798,7 +2699,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2816,7 +2719,9 @@
       "heeft_motor",
       "buiten",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2827,11 +2732,14 @@
       "voorwerp",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
       "heeft_motor",
       "buiten",
       "met_water",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2848,31 +2756,65 @@
       "buiten",
       "met_water",
       "in_nederland",
-      "maakt_geluid"
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
-    "id": "zeilboot",
-    "name": "Zeilboot",
-    "emoji": "⛵",
+    "id": "veerboot",
+    "name": "Veerboot",
+    "emoji": "⛴️",
     "props": [
       "voorwerp",
       "groter_dan_koelkast",
       "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "heeft_motor",
       "buiten",
       "met_water",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
-    "id": "kano",
-    "name": "Kano",
-    "emoji": "🛶",
+    "id": "bouwkraan",
+    "name": "Bouwkraan",
+    "emoji": "🏗️",
     "props": [
       "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "heeft_motor",
       "buiten",
-      "met_water",
-      "in_nederland"
+      "in_nederland",
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "camper",
+    "name": "Camper",
+    "emoji": "🚐",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid",
+      "kan_heet_worden",
+      "knoppen_of_scherm"
     ]
   },
   {
@@ -2888,7 +2830,35 @@
       "heeft_motor",
       "buiten",
       "maakt_geluid",
-      "kan_heet_worden"
+      "kan_heet_worden",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "zeilboot",
+    "name": "Zeilboot",
+    "emoji": "⛵",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kano",
+    "name": "Kano",
+    "emoji": "🛶",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "bevat_plastic",
+      "buiten",
+      "met_water",
+      "in_nederland"
     ]
   },
   {
@@ -2898,18 +2868,10 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
       "zacht",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "kaas",
-    "name": "Kaas",
-    "emoji": "🧀",
-    "props": [
-      "voorwerp",
-      "eetbaar",
-      "in_nederland"
+      "in_nederland",
+      "kan_heet_worden"
     ]
   },
   {
@@ -2920,8 +2882,10 @@
       "voorwerp",
       "past_in_broekzak",
       "eetbaar",
+      "in_huis",
       "rond",
-      "in_nederland"
+      "in_nederland",
+      "kan_heet_worden"
     ]
   },
   {
@@ -2931,6 +2895,7 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
       "rond",
       "zacht",
       "in_nederland",
@@ -2944,20 +2909,10 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
       "rond",
       "in_nederland",
       "kan_heet_worden"
-    ]
-  },
-  {
-    "id": "ijsje",
-    "name": "IJsje",
-    "emoji": "🍦",
-    "props": [
-      "voorwerp",
-      "eetbaar",
-      "zacht",
-      "in_nederland"
     ]
   },
   {
@@ -2968,6 +2923,7 @@
       "voorwerp",
       "past_in_broekzak",
       "eetbaar",
+      "in_huis",
       "in_nederland"
     ]
   },
@@ -2979,7 +2935,9 @@
       "voorwerp",
       "past_in_broekzak",
       "eetbaar",
-      "in_nederland"
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
     ]
   },
   {
@@ -2989,17 +2947,8 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
       "rond",
-      "in_nederland"
-    ]
-  },
-  {
-    "id": "patat",
-    "name": "Patat",
-    "emoji": "🍟",
-    "props": [
-      "voorwerp",
-      "eetbaar",
       "in_nederland",
       "kan_heet_worden"
     ]
@@ -3012,8 +2961,10 @@
       "voorwerp",
       "past_in_broekzak",
       "eetbaar",
+      "in_huis",
       "rond",
-      "in_nederland"
+      "in_nederland",
+      "kan_heet_worden"
     ]
   },
   {
@@ -3024,6 +2975,7 @@
       "voorwerp",
       "past_in_broekzak",
       "eetbaar",
+      "in_huis",
       "rond",
       "in_nederland"
     ]
@@ -3035,9 +2987,11 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
       "rond",
       "zacht",
-      "in_nederland"
+      "in_nederland",
+      "kan_heet_worden"
     ]
   },
   {
@@ -3047,7 +3001,57 @@
     "props": [
       "voorwerp",
       "eetbaar",
+      "in_huis",
+      "rond",
       "zacht",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "hotdog",
+    "name": "Hotdog",
+    "emoji": "🌭",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "appel",
+    "name": "Appel",
+    "emoji": "🍎",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_huis",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "banaan",
+    "name": "Banaan",
+    "emoji": "🍌",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "sinaasappel",
+    "name": "Sinaasappel",
+    "emoji": "🍊",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_huis",
+      "rond",
       "in_nederland"
     ]
   }
