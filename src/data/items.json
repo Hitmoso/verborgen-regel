@@ -1,0 +1,3054 @@
+[
+  {
+    "id": "koe",
+    "name": "Koe",
+    "emoji": "🐄",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "paard",
+    "name": "Paard",
+    "emoji": "🐎",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "schaap",
+    "name": "Schaap",
+    "emoji": "🐑",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "buiten",
+      "zacht",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "varken",
+    "name": "Varken",
+    "emoji": "🐖",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "zwaarder_dan_mens",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kip",
+    "name": "Kip",
+    "emoji": "🐔",
+    "props": [
+      "levend",
+      "dier",
+      "eetbaar",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "hond",
+    "name": "Hond",
+    "emoji": "🐕",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "in_huis",
+      "zacht",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kat",
+    "name": "Kat",
+    "emoji": "🐈",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "heeft_scherpe_rand",
+      "in_huis",
+      "zacht",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "konijn",
+    "name": "Konijn",
+    "emoji": "🐇",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "buiten",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "hamster",
+    "name": "Hamster",
+    "emoji": "🐹",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "past_in_broekzak",
+      "in_huis",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "muis",
+    "name": "Muis",
+    "emoji": "🐁",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "past_in_broekzak",
+      "zacht",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "egel",
+    "name": "Egel",
+    "emoji": "🦔",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "heeft_scherpe_rand",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "eekhoorn",
+    "name": "Eekhoorn",
+    "emoji": "🐿️",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "buiten",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vos",
+    "name": "Vos",
+    "emoji": "🦊",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "hert",
+    "name": "Hert",
+    "emoji": "🦌",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "vleermuis",
+    "name": "Vleermuis",
+    "emoji": "🦇",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "ezel",
+    "name": "Ezel",
+    "emoji": "🫏",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "geit",
+    "name": "Geit",
+    "emoji": "🐐",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "leeuw",
+    "name": "Leeuw",
+    "emoji": "🦁",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "olifant",
+    "name": "Olifant",
+    "emoji": "🐘",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "tijger",
+    "name": "Tijger",
+    "emoji": "🐅",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "ijsbeer",
+    "name": "IJsbeer",
+    "emoji": "🐻‍❄️",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "beer",
+    "name": "Beer",
+    "emoji": "🐻",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "zebra",
+    "name": "Zebra",
+    "emoji": "🦓",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kameel",
+    "name": "Kameel",
+    "emoji": "🐫",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "neushoorn",
+    "name": "Neushoorn",
+    "emoji": "🦏",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "panda",
+    "name": "Panda",
+    "emoji": "🐼",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "heeft_vier_poten",
+      "zwaarder_dan_mens",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "walvis",
+    "name": "Walvis",
+    "emoji": "🐋",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "zeehond",
+    "name": "Zeehond",
+    "emoji": "🦭",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "otter",
+    "name": "Otter",
+    "emoji": "🦦",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bever",
+    "name": "Bever",
+    "emoji": "🦫",
+    "props": [
+      "levend",
+      "dier",
+      "zoogdier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "eend",
+    "name": "Eend",
+    "emoji": "🦆",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "kan_vliegen",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "zwaan",
+    "name": "Zwaan",
+    "emoji": "🦢",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "kan_vliegen",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "duif",
+    "name": "Duif",
+    "emoji": "🕊️",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "uil",
+    "name": "Uil",
+    "emoji": "🦉",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "heeft_scherpe_rand",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "merel",
+    "name": "Merel",
+    "emoji": "🐦",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kraai",
+    "name": "Kraai",
+    "emoji": "🐦‍⬛",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "papegaai",
+    "name": "Papegaai",
+    "emoji": "🦜",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "arend",
+    "name": "Arend",
+    "emoji": "🦅",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "heeft_scherpe_rand",
+      "buiten",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "flamingo",
+    "name": "Flamingo",
+    "emoji": "🦩",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "buiten",
+      "met_water",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "pinguin",
+    "name": "Pinguïn",
+    "emoji": "🐧",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "buiten",
+      "met_water",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kuiken",
+    "name": "Kuiken",
+    "emoji": "🐣",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "zacht",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "haai",
+    "name": "Haai",
+    "emoji": "🦈",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "met_water"
+    ]
+  },
+  {
+    "id": "goudvis",
+    "name": "Goudvis",
+    "emoji": "🐠",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "in_huis",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "haring",
+    "name": "Haring",
+    "emoji": "🐟",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "eetbaar",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kogelvis",
+    "name": "Kogelvis",
+    "emoji": "🐡",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "heeft_scherpe_rand",
+      "buiten",
+      "met_water"
+    ]
+  },
+  {
+    "id": "krab",
+    "name": "Krab",
+    "emoji": "🦀",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "eetbaar",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "garnaal",
+    "name": "Garnaal",
+    "emoji": "🦐",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "past_in_broekzak",
+      "eetbaar",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "oester",
+    "name": "Oester",
+    "emoji": "🦪",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "eetbaar",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "emoji": "🐙",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "buiten",
+      "zacht",
+      "met_water"
+    ]
+  },
+  {
+    "id": "kwal",
+    "name": "Kwal",
+    "emoji": "🪼",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "buiten",
+      "zacht",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "krokodil",
+    "name": "Krokodil",
+    "emoji": "🐊",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_scherpe_rand",
+      "buiten",
+      "met_water",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "kikker",
+    "name": "Kikker",
+    "emoji": "🐸",
+    "props": [
+      "levend",
+      "dier",
+      "kan_zwemmen",
+      "heeft_vier_poten",
+      "past_in_broekzak",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "slak",
+    "name": "Slak",
+    "emoji": "🐌",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bij",
+    "name": "Bij",
+    "emoji": "🐝",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "heeft_scherpe_rand",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "mug",
+    "name": "Mug",
+    "emoji": "🦟",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "vlieg",
+    "name": "Vlieg",
+    "emoji": "🪰",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "vlinder",
+    "name": "Vlinder",
+    "emoji": "🦋",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "lieveheersbeestje",
+    "name": "Lieveheersbeestje",
+    "emoji": "🐞",
+    "props": [
+      "levend",
+      "dier",
+      "kan_vliegen",
+      "past_in_broekzak",
+      "buiten",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "mier",
+    "name": "Mier",
+    "emoji": "🐜",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "spin",
+    "name": "Spin",
+    "emoji": "🕷️",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "regenworm",
+    "name": "Regenworm",
+    "emoji": "🪱",
+    "props": [
+      "levend",
+      "dier",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "eik",
+    "name": "Eik",
+    "emoji": "🌳",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "dennenboom",
+    "name": "Dennenboom",
+    "emoji": "🌲",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "palmboom",
+    "name": "Palmboom",
+    "emoji": "🌴",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten"
+    ]
+  },
+  {
+    "id": "appelboom",
+    "name": "Appelboom",
+    "emoji": "🍎",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kastanjeboom",
+    "name": "Kastanjeboom",
+    "emoji": "🌰",
+    "props": [
+      "levend",
+      "plant",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "cactus",
+    "name": "Cactus",
+    "emoji": "🌵",
+    "props": [
+      "levend",
+      "plant",
+      "heeft_scherpe_rand",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "roos",
+    "name": "Roos",
+    "emoji": "🌹",
+    "props": [
+      "levend",
+      "plant",
+      "heeft_scherpe_rand",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "tulp",
+    "name": "Tulp",
+    "emoji": "🌷",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zonnebloem",
+    "name": "Zonnebloem",
+    "emoji": "🌻",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "madeliefje",
+    "name": "Madeliefje",
+    "emoji": "🌼",
+    "props": [
+      "levend",
+      "plant",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "brandnetel",
+    "name": "Brandnetel",
+    "emoji": "🌿",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "gras",
+    "name": "Gras",
+    "emoji": "🌱",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "klaver",
+    "name": "Klaver",
+    "emoji": "🍀",
+    "props": [
+      "levend",
+      "plant",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "basilicum",
+    "name": "Basilicum",
+    "emoji": "🌿",
+    "props": [
+      "levend",
+      "plant",
+      "eetbaar",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "peterselie",
+    "name": "Peterselie",
+    "emoji": "🌿",
+    "props": [
+      "levend",
+      "plant",
+      "eetbaar",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "waterlelie",
+    "name": "Waterlelie",
+    "emoji": "🪷",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vetplant",
+    "name": "Vetplant",
+    "emoji": "🪴",
+    "props": [
+      "levend",
+      "plant",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "riet",
+    "name": "Riet",
+    "emoji": "🌾",
+    "props": [
+      "levend",
+      "plant",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "strand",
+    "name": "Strand",
+    "emoji": "🏖️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "bos",
+    "name": "Bos",
+    "emoji": "🌲",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zee",
+    "name": "Zee",
+    "emoji": "🌊",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "rivier",
+    "name": "Rivier",
+    "emoji": "🏞️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "woestijn",
+    "name": "Woestijn",
+    "emoji": "🏜️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "berg",
+    "name": "Berg",
+    "emoji": "⛰️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten"
+    ]
+  },
+  {
+    "id": "vulkaan",
+    "name": "Vulkaan",
+    "emoji": "🌋",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "noordpool",
+    "name": "Noordpool",
+    "emoji": "🧊",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten"
+    ]
+  },
+  {
+    "id": "eiland",
+    "name": "Eiland",
+    "emoji": "🏝️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zwembad",
+    "name": "Zwembad",
+    "emoji": "🏊",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "keuken",
+    "name": "Keuken",
+    "emoji": "🥘",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "badkamer",
+    "name": "Badkamer",
+    "emoji": "🛁",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_huis",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "slaapkamer",
+    "name": "Slaapkamer",
+    "emoji": "🛏️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zolder",
+    "name": "Zolder",
+    "emoji": "🏠",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "supermarkt",
+    "name": "Supermarkt",
+    "emoji": "🏪",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "emoji": "🏫",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "ziekenhuis",
+    "name": "Ziekenhuis",
+    "emoji": "🏥",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kerk",
+    "name": "Kerk",
+    "emoji": "⛪",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "station",
+    "name": "Treinstation",
+    "emoji": "🚉",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vliegveld",
+    "name": "Vliegveld",
+    "emoji": "🛫",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "haven",
+    "name": "Haven",
+    "emoji": "⚓",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "speeltuin",
+    "name": "Speeltuin",
+    "emoji": "🛝",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "dierentuin",
+    "name": "Dierentuin",
+    "emoji": "🦒",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Camping",
+    "emoji": "🏕️",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "sauna",
+    "name": "Sauna",
+    "emoji": "🧖",
+    "props": [
+      "plaats",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_hout",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "stoel",
+    "name": "Stoel",
+    "emoji": "🪑",
+    "props": [
+      "voorwerp",
+      "heeft_vier_poten",
+      "bevat_hout",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bankstel",
+    "name": "Bankstel",
+    "emoji": "🛋️",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "in_huis",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "knuffelbeer",
+    "name": "Knuffelbeer",
+    "emoji": "🧸",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "gloeilamp",
+    "name": "Gloeilamp",
+    "emoji": "💡",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_glas",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "kaars",
+    "name": "Kaars",
+    "emoji": "🕯️",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "spiegel",
+    "name": "Spiegel",
+    "emoji": "🪞",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "raam",
+    "name": "Raam",
+    "emoji": "🪟",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "deur",
+    "name": "Deur",
+    "emoji": "🚪",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_hout",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "wekker",
+    "name": "Wekker",
+    "emoji": "⏰",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "schaar",
+    "name": "Schaar",
+    "emoji": "✂️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "mes",
+    "name": "Mes",
+    "emoji": "🔪",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vork",
+    "name": "Vork",
+    "emoji": "🍴",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "lepel",
+    "name": "Lepel",
+    "emoji": "🥄",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "koekenpan",
+    "name": "Koekenpan",
+    "emoji": "🍳",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "bord",
+    "name": "Bord",
+    "emoji": "🍽️",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "drinkglas",
+    "name": "Drinkglas",
+    "emoji": "🥃",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "theepot",
+    "name": "Theepot",
+    "emoji": "🫖",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "met_water",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "koffiekopje",
+    "name": "Koffiekopje",
+    "emoji": "☕",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "televisie",
+    "name": "Televisie",
+    "emoji": "📺",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "laptop",
+    "name": "Laptop",
+    "emoji": "💻",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "computer",
+    "name": "Computer",
+    "emoji": "🖥️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "smartphone",
+    "name": "Smartphone",
+    "emoji": "📱",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "vaste-telefoon",
+    "name": "Vaste telefoon",
+    "emoji": "☎️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "radio",
+    "name": "Radio",
+    "emoji": "📻",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "koptelefoon",
+    "name": "Koptelefoon",
+    "emoji": "🎧",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "gamecontroller",
+    "name": "Gamecontroller",
+    "emoji": "🎮",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "joystick",
+    "name": "Joystick",
+    "emoji": "🕹️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "toetsenbord",
+    "name": "Toetsenbord",
+    "emoji": "⌨️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "computermuis",
+    "name": "Computermuis",
+    "emoji": "🖱️",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "printer",
+    "name": "Printer",
+    "emoji": "🖨️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_huis",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "fotocamera",
+    "name": "Fotocamera",
+    "emoji": "📷",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "zaklamp",
+    "name": "Zaklamp",
+    "emoji": "🔦",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "pinautomaat",
+    "name": "Pinautomaat",
+    "emoji": "🏧",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "werkt_op_stroom",
+      "buiten",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "stoplicht",
+    "name": "Stoplicht",
+    "emoji": "🚦",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "werkt_op_stroom",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "lift",
+    "name": "Lift",
+    "emoji": "🛗",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "werkt_op_stroom",
+      "heeft_motor",
+      "in_nederland",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "batterij",
+    "name": "Batterij",
+    "emoji": "🔋",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "horloge",
+    "name": "Horloge",
+    "emoji": "⌚",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "bevat_glas",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bril",
+    "name": "Bril",
+    "emoji": "👓",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vergrootglas",
+    "name": "Vergrootglas",
+    "emoji": "🔍",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zandloper",
+    "name": "Zandloper",
+    "emoji": "⌛",
+    "props": [
+      "voorwerp",
+      "bevat_glas",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "hamer",
+    "name": "Hamer",
+    "emoji": "🔨",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_hout",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zaag",
+    "name": "Zaag",
+    "emoji": "🪚",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bijl",
+    "name": "Bijl",
+    "emoji": "🪓",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_hout",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "schroevendraaier",
+    "name": "Schroevendraaier",
+    "emoji": "🪛",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "moersleutel",
+    "name": "Moersleutel",
+    "emoji": "🔧",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "moer-en-bout",
+    "name": "Moer en bout",
+    "emoji": "🔩",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "punaise",
+    "name": "Punaise",
+    "emoji": "📌",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "bevat_plastic",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "paperclip",
+    "name": "Paperclip",
+    "emoji": "📎",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "veiligheidsspeld",
+    "name": "Veiligheidsspeld",
+    "emoji": "🧷",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "naald",
+    "name": "Naald",
+    "emoji": "🪡",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "magneet",
+    "name": "Magneet",
+    "emoji": "🧲",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "sleutel",
+    "name": "Sleutel",
+    "emoji": "🔑",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "hangslot",
+    "name": "Hangslot",
+    "emoji": "🔒",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "muntje",
+    "name": "Muntje",
+    "emoji": "🪙",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "ring",
+    "name": "Ring",
+    "emoji": "💍",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_metaal",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bel",
+    "name": "Bel",
+    "emoji": "🔔",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "pen",
+    "name": "Pen",
+    "emoji": "🖊️",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_plastic",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "potlood",
+    "name": "Potlood",
+    "emoji": "✏️",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_hout",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "boek",
+    "name": "Boek",
+    "emoji": "📖",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "injectiespuit",
+    "name": "Injectiespuit",
+    "emoji": "💉",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_plastic",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "tandenborstel",
+    "name": "Tandenborstel",
+    "emoji": "🪥",
+    "props": [
+      "voorwerp",
+      "bevat_plastic",
+      "in_huis",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "zeep",
+    "name": "Zeep",
+    "emoji": "🧼",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "spons",
+    "name": "Spons",
+    "emoji": "🧽",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "zacht",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "emmer",
+    "name": "Emmer",
+    "emoji": "🪣",
+    "props": [
+      "voorwerp",
+      "bevat_plastic",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "toilet",
+    "name": "Toilet",
+    "emoji": "🚽",
+    "props": [
+      "voorwerp",
+      "in_huis",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "sok",
+    "name": "Sok",
+    "emoji": "🧦",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "in_huis",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "handschoen",
+    "name": "Handschoen",
+    "emoji": "🧤",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "bol-wol",
+    "name": "Bol wol",
+    "emoji": "🧶",
+    "props": [
+      "voorwerp",
+      "rond",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "paraplu",
+    "name": "Paraplu",
+    "emoji": "☂️",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "dobbelsteen",
+    "name": "Dobbelsteen",
+    "emoji": "🎲",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "bevat_plastic",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "cd",
+    "name": "Cd",
+    "emoji": "💿",
+    "props": [
+      "voorwerp",
+      "bevat_plastic",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "frisbee",
+    "name": "Frisbee",
+    "emoji": "🥏",
+    "props": [
+      "voorwerp",
+      "bevat_plastic",
+      "buiten",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "voetbal",
+    "name": "Voetbal",
+    "emoji": "⚽",
+    "props": [
+      "voorwerp",
+      "buiten",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "tennisbal",
+    "name": "Tennisbal",
+    "emoji": "🎾",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "buiten",
+      "rond",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "basketbal",
+    "name": "Basketbal",
+    "emoji": "🏀",
+    "props": [
+      "voorwerp",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "ballon",
+    "name": "Ballon",
+    "emoji": "🎈",
+    "props": [
+      "voorwerp",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "vlieger",
+    "name": "Vlieger",
+    "emoji": "🪁",
+    "props": [
+      "voorwerp",
+      "kan_vliegen",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "gitaar",
+    "name": "Gitaar",
+    "emoji": "🎸",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "bevat_hout",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "viool",
+    "name": "Viool",
+    "emoji": "🎻",
+    "props": [
+      "voorwerp",
+      "bevat_hout",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "trommel",
+    "name": "Trommel",
+    "emoji": "🥁",
+    "props": [
+      "voorwerp",
+      "bevat_hout",
+      "rond",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "trompet",
+    "name": "Trompet",
+    "emoji": "🎺",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "rotje",
+    "name": "Rotje",
+    "emoji": "🧨",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "houtblok",
+    "name": "Houtblok",
+    "emoji": "🪵",
+    "props": [
+      "voorwerp",
+      "bevat_hout",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "pijl-en-boog",
+    "name": "Pijl en boog",
+    "emoji": "🏹",
+    "props": [
+      "voorwerp",
+      "bevat_hout",
+      "heeft_scherpe_rand",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "tent",
+    "name": "Tent",
+    "emoji": "⛺",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "parasol",
+    "name": "Parasol",
+    "emoji": "⛱️",
+    "props": [
+      "voorwerp",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "brievenbus",
+    "name": "Brievenbus",
+    "emoji": "📫",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "brandblusser",
+    "name": "Brandblusser",
+    "emoji": "🧯",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "rolkoffer",
+    "name": "Rolkoffer",
+    "emoji": "🧳",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "winkelwagen",
+    "name": "Winkelwagen",
+    "emoji": "🛒",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "bevat_metaal",
+      "bevat_plastic",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "rolstoel",
+    "name": "Rolstoel",
+    "emoji": "🦽",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "bevat_metaal",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "rolschaats",
+    "name": "Rolschaats",
+    "emoji": "🛼",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "fiets",
+    "name": "Fiets",
+    "emoji": "🚲",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "bevat_metaal",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "step",
+    "name": "Step",
+    "emoji": "🛴",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "bevat_metaal",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "skateboard",
+    "name": "Skateboard",
+    "emoji": "🛹",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "bevat_metaal",
+      "bevat_hout",
+      "buiten",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "elektrische-auto",
+    "name": "Elektrische auto",
+    "emoji": "🚗",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid",
+      "knoppen_of_scherm"
+    ]
+  },
+  {
+    "id": "brandweerauto",
+    "name": "Brandweerauto",
+    "emoji": "🚒",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "ambulance",
+    "name": "Ambulance",
+    "emoji": "🚑",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "politieauto",
+    "name": "Politieauto",
+    "emoji": "🚓",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "vrachtwagen",
+    "name": "Vrachtwagen",
+    "emoji": "🚚",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "tractor",
+    "name": "Tractor",
+    "emoji": "🚜",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "raceauto",
+    "name": "Raceauto",
+    "emoji": "🏎️",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "motorfiets",
+    "name": "Motorfiets",
+    "emoji": "🏍️",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "trein",
+    "name": "Trein",
+    "emoji": "🚆",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "tram",
+    "name": "Tram",
+    "emoji": "🚊",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "metro",
+    "name": "Metro",
+    "emoji": "🚇",
+    "props": [
+      "voorwerp",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "werkt_op_stroom",
+      "heeft_motor",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "veerboot",
+    "name": "Veerboot",
+    "emoji": "⛴️",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "heeft_motor",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "soep",
+    "name": "Soep",
+    "emoji": "🍲",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "met_water",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "hotdog",
+    "name": "Hotdog",
+    "emoji": "🌭",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "fonduepan",
+    "name": "Fonduepan",
+    "emoji": "🫕",
+    "props": [
+      "voorwerp",
+      "bevat_metaal",
+      "in_huis",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "vliegtuig",
+    "name": "Vliegtuig",
+    "emoji": "✈️",
+    "props": [
+      "voorwerp",
+      "kan_vliegen",
+      "heeft_wielen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "helikopter",
+    "name": "Helikopter",
+    "emoji": "🚁",
+    "props": [
+      "voorwerp",
+      "kan_vliegen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "bevat_plastic",
+      "heeft_motor",
+      "buiten",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "speedboot",
+    "name": "Speedboot",
+    "emoji": "🚤",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "heeft_motor",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "cruiseschip",
+    "name": "Cruiseschip",
+    "emoji": "🛳️",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "bevat_glas",
+      "heeft_motor",
+      "buiten",
+      "met_water",
+      "in_nederland",
+      "maakt_geluid"
+    ]
+  },
+  {
+    "id": "zeilboot",
+    "name": "Zeilboot",
+    "emoji": "⛵",
+    "props": [
+      "voorwerp",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kano",
+    "name": "Kano",
+    "emoji": "🛶",
+    "props": [
+      "voorwerp",
+      "buiten",
+      "met_water",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "raket",
+    "name": "Raket",
+    "emoji": "🚀",
+    "props": [
+      "voorwerp",
+      "kan_vliegen",
+      "groter_dan_koelkast",
+      "zwaarder_dan_mens",
+      "bevat_metaal",
+      "heeft_motor",
+      "buiten",
+      "maakt_geluid",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "brood",
+    "name": "Brood",
+    "emoji": "🍞",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "kaas",
+    "name": "Kaas",
+    "emoji": "🧀",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "stroopwafel",
+    "name": "Stroopwafel",
+    "emoji": "🧇",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "eetbaar",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "pannenkoek",
+    "name": "Pannenkoek",
+    "emoji": "🥞",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "rond",
+      "zacht",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "emoji": "🍕",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "rond",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "ijsje",
+    "name": "IJsje",
+    "emoji": "🍦",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "chocoladereep",
+    "name": "Chocoladereep",
+    "emoji": "🍫",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "eetbaar",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "ei",
+    "name": "Ei",
+    "emoji": "🥚",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "eetbaar",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "appeltaart",
+    "name": "Appeltaart",
+    "emoji": "🥧",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "patat",
+    "name": "Patat",
+    "emoji": "🍟",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "in_nederland",
+      "kan_heet_worden"
+    ]
+  },
+  {
+    "id": "koekje",
+    "name": "Koekje",
+    "emoji": "🍪",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "eetbaar",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "lolly",
+    "name": "Lolly",
+    "emoji": "🍭",
+    "props": [
+      "voorwerp",
+      "past_in_broekzak",
+      "eetbaar",
+      "rond",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "donut",
+    "name": "Donut",
+    "emoji": "🍩",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "rond",
+      "zacht",
+      "in_nederland"
+    ]
+  },
+  {
+    "id": "taart",
+    "name": "Taart",
+    "emoji": "🎂",
+    "props": [
+      "voorwerp",
+      "eetbaar",
+      "zacht",
+      "in_nederland"
+    ]
+  }
+]
