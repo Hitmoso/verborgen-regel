@@ -63,6 +63,8 @@ describe('applySave', () => {
     applySave(tmp, 'overrides', {
       '2026-12-01': { t: 'and', a: { t: 'prop', id: 'x' }, b: { t: 'not', r: { t: 'prop', id: 'y' } } },
     });
+    expect(() => applySave(tmp, 'overrides', { '2026-02-31': { t: 'prop', id: 'x' } })).toThrow();
+    expect(() => applySave(tmp, 'overrides', { '2026-13-01': { t: 'prop', id: 'x' } })).toThrow();
     expect(() => applySave(tmp, 'overrides', { morgen: { t: 'prop', id: 'x' } })).toThrow();
     expect(() => applySave(tmp, 'overrides', { '2026-12-01': { t: 'prop' } })).toThrow();
     expect(() => applySave(tmp, 'overrides', { '2026-12-01': { t: 'xor' } })).toThrow();

@@ -1,3 +1,11 @@
+const dateFmt = new Intl.DateTimeFormat('nl-NL', { dateStyle: 'long', timeZone: 'UTC' });
+
+/** Dutch long date for a YYYY-MM-DD key, built from its parts so the day cannot shift. */
+export function dateLabel(dateKey: string): string {
+  const [y, m, d] = dateKey.split('-').map(Number);
+  return dateFmt.format(new Date(Date.UTC(y, m - 1, d)));
+}
+
 export const TEXT = {
   title: (n: number) => `Puzzel #${n}`,
   yes: '✅ Voldoet',

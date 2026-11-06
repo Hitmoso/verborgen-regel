@@ -8,6 +8,19 @@ describe('hashString', () => {
   });
 });
 
+describe('golden values', () => {
+  it('hashString matches FNV-1a 32-bit vectors', () => {
+    expect(hashString('a')).toBe(0xe40c292c);
+    expect(hashString('')).toBe(0x811c9dc5);
+  });
+  it('mulberry32(1) starts with pinned values', () => {
+    const r = mulberry32(1);
+    expect(r()).toBe(0.6270739405881613);
+    expect(r()).toBe(0.002735721180215478);
+    expect(r()).toBe(0.5274470399599522);
+  });
+});
+
 describe('mulberry32', () => {
   it('gives the same first 5 values for the same seed, in [0,1)', () => {
     const a = mulberry32(1);

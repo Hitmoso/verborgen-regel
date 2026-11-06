@@ -1,4 +1,4 @@
-import { STORAGE_KEY } from '../config';
+import { STORAGE_KEY, TEST_BUDGET, EXAM_SIZE } from '../config';
 import { addDays } from '../lib/date';
 import type { GameState } from '../game/game';
 
@@ -24,14 +24,18 @@ function isStringArray(x: unknown): x is string[] {
   return Array.isArray(x) && x.every((v) => typeof v === 'string');
 }
 
+function isInt(x: unknown, min: number, max = Infinity): x is number {
+  return typeof x === 'number' && Number.isInteger(x) && x >= min && x <= max;
+}
+
 function isOutcome(x: unknown): boolean {
   return (
     isRecord(x) &&
-    typeof x.correct === 'number' &&
-    typeof x.total === 'number' &&
+    isInt(x.total, 0) &&
+    isInt(x.correct, 0, x.total) &&
     typeof x.perfect === 'boolean' &&
-    typeof x.testsLeft === 'number' &&
-    typeof x.score === 'number'
+    isInt(x.testsLeft, 0, TEST_BUDGET) &&
+    isInt(x.score, 0)
   );
 }
 
@@ -48,6 +52,8 @@ export function isValidGameState(x: unknown): x is GameState {
   ) {
     return false;
   }
+  if (x.tests.length > TEST_BUDGET) return false;
+  if ((x.phase === 'exam' || x.phase === 'done') && x.examItemIds.length !== EXAM_SIZE) return false;
   if (!isRecord(x.examAnswers) || !Object.values(x.examAnswers).every((v) => typeof v === 'boolean')) {
     return false;
   }

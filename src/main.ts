@@ -42,6 +42,7 @@ function shareText(): string {
 function view(): ViewModel {
   return {
     puzzleNumber: puzzle.number,
+    dateKey: puzzle.dateKey,
     state,
     items,
     testsLeft: testsLeft(state),

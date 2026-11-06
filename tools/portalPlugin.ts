@@ -1,6 +1,7 @@
 import { writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Plugin } from 'vite';
+import { isValidDateKey } from '../src/lib/date';
 
 const FILES = ['items', 'properties', 'overrides'] as const;
 const MAX_BODY = 5 * 1024 * 1024;
@@ -49,7 +50,7 @@ export function applySave(rootDir: string, file: string, data: unknown): void {
   if (file === 'overrides') {
     if (!isPlainObject(data)) throw new Error('overrides moet een object zijn');
     for (const [k, v] of Object.entries(data)) {
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) throw new Error(`Ongeldige datum: ${k}`);
+      if (!isValidDateKey(k)) throw new Error(`Ongeldige datum: ${k}`);
       if (!isRule(v)) throw new Error(`Ongeldige regel voor ${k}`);
     }
   } else {

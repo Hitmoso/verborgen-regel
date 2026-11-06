@@ -8,6 +8,7 @@ import {
   msUntilNextPuzzle,
   addDays,
   isNewDay,
+  isValidDateKey,
 } from '../src/lib/date';
 
 describe('toDateKey', () => {
@@ -61,5 +62,19 @@ describe('isNewDay', () => {
   });
   it('is true after a real day change', () => {
     expect(isNewDay('2026-11-10', new Date(Date.UTC(2026, 10, 11, 12)))).toBe(true);
+  });
+});
+
+describe('isValidDateKey', () => {
+  it('accepts real dates', () => {
+    expect(isValidDateKey('2026-11-07')).toBe(true);
+    expect(isValidDateKey('2028-02-29')).toBe(true);
+  });
+  it('rejects impossible or malformed dates', () => {
+    expect(isValidDateKey('2026-02-31')).toBe(false);
+    expect(isValidDateKey('2026-13-01')).toBe(false);
+    expect(isValidDateKey('2027-02-29')).toBe(false);
+    expect(isValidDateKey('2026-2-3')).toBe(false);
+    expect(isValidDateKey('morgen')).toBe(false);
   });
 });

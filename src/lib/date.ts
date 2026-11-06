@@ -19,7 +19,9 @@ const timeFmt = new Intl.DateTimeFormat('en-GB', {
 
 /** YYYY-MM-DD in Europe/Amsterdam. */
 export function toDateKey(d: Date): string {
-  return dateFmt.format(d);
+  const parts = dateFmt.formatToParts(d);
+  const get = (type: string) => parts.find((p) => p.type === type)?.value ?? '';
+  return `${get('year')}-${get('month')}-${get('day')}`;
 }
 
 function utcMs(dateKey: string): number {
@@ -53,6 +55,11 @@ export function msUntilNextPuzzle(now: Date): number {
 
 export function addDays(dateKey: string, n: number): string {
   return new Date(utcMs(dateKey) + n * DAY_MS).toISOString().slice(0, 10);
+}
+
+/** True for a real calendar date in YYYY-MM-DD form (rejects e.g. 2026-02-31). */
+export function isValidDateKey(k: string): boolean {
+  return /^\d{4}-\d{2}-\d{2}$/.test(k) && addDays(k, 0) === k;
 }
 
 /** True when the (normalised) current day differs from the puzzle's day. */

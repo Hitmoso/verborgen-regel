@@ -19,6 +19,8 @@ Het portaal is een lokaal hulpmiddel om items, eigenschappen en dagpuzzels te be
 
 - Wijzigingen worden opgeslagen via `POST /__portal/save` in `src/data/items.json`, `properties.json` en `overrides.json`.
 - De gekozen datum staat in de URL-hash (bijvoorbeeld `#2026-12-01`).
+  Het datumbereik loopt van `EPOCH` tot 10 jaar daarna; ongeldige datums worden genegeerd.
+- Het portaal waarschuwt (zonder te blokkeren) als een opgeslagen override ongeldig is geworden, of als de regel in de bouwer al in de afgelopen `RECENT_DAYS` dagen de puzzel was.
 - Pas je `tools/portalPlugin.ts` aan, herstart dan de dev-server.
 - Het portaal zit niet in de productiebuild; dat wordt gecontroleerd door `tests/build.test.ts`.
 

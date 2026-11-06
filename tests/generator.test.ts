@@ -24,7 +24,7 @@ describe('generator', () => {
       keys.push(ruleKey(pz.rule));
     }
     for (let i = 0; i < keys.length; i++) {
-      for (let j = Math.max(0, i - RECENT_DAYS + 1); j < i; j++) expect(keys[j]).not.toBe(keys[i]);
+      for (let j = Math.max(0, i - RECENT_DAYS); j < i; j++) expect(keys[j]).not.toBe(keys[i]);
     }
   });
   it('uses a valid override', () => {

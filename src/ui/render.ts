@@ -1,10 +1,11 @@
 import type { Item } from '../types';
 import type { GameState } from '../game/game';
 import { TEST_BUDGET, EXAM_SIZE } from '../config';
-import { TEXT } from './text';
+import { TEXT, dateLabel } from './text';
 
 export type ViewModel = {
   puzzleNumber: number;
+  dateKey: string;
   state: GameState;
   items: Item[];
   testsLeft: number;
@@ -215,6 +216,7 @@ export function render(root: HTMLElement, view: ViewModel, actions: Actions): vo
     el('main', { cls: 'wrap' }, [
       el('h1', { text: heading }),
       ...(phase === 'testing' ? [] : [el('p', { cls: 'muted', text: TEXT.title(view.puzzleNumber) })]),
+      el('p', { cls: 'muted date', text: dateLabel(view.dateKey) }),
       ...body,
     ]),
   );

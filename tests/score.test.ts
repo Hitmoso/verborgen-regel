@@ -24,6 +24,22 @@ describe('buildShareText', () => {
     ).toBe('Regel #42 🔍🔍🔍⬜⬜⬜⬜⬜⬜⬜ 8/8 ✅');
   });
 
+  it('toont 0 en 10 gebruikte tests', () => {
+    expect(buildShareText({ puzzleNumber: 1, testsUsed: 0, correct: 8, total: 8 })).toBe(
+      'Regel #1 ' + '⬜'.repeat(10) + ' 8/8 ✅',
+    );
+    expect(buildShareText({ puzzleNumber: 1, testsUsed: 10, correct: 8, total: 8 })).toBe(
+      'Regel #1 ' + '🔍'.repeat(10) + ' 8/8 ✅',
+    );
+  });
+
+  it('klemt een ongeldig aantal tests zonder te crashen', () => {
+    expect(() => buildShareText({ puzzleNumber: 1, testsUsed: -3, correct: 8, total: 8 })).not.toThrow();
+    expect(buildShareText({ puzzleNumber: 1, testsUsed: -3, correct: 8, total: 8 })).toContain('⬜'.repeat(10));
+    expect(buildShareText({ puzzleNumber: 1, testsUsed: 99, correct: 8, total: 8 })).toContain('🔍'.repeat(10));
+    expect(buildShareText({ puzzleNumber: 1, testsUsed: 2.5, correct: 8, total: 8 })).not.toContain('NaN');
+  });
+
   it('eindigt op ❌ als niet alles goed is', () => {
     expect(
       buildShareText({ puzzleNumber: 42, testsUsed: 3, correct: 6, total: 8 }),

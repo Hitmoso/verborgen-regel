@@ -1,9 +1,10 @@
 import { getPuzzle } from '../src/generator/generator';
 import { validateRule } from '../src/generator/fairness';
 import type { Ctx, Problem } from '../src/generator/fairness';
-import { describe, difficultyOf, matchIds } from '../src/rules/rule';
+import { describe, difficultyOf, matchIds, ruleKey } from '../src/rules/rule';
 import { newGame } from '../src/game/game';
-import { toDateKey, normalizeDateKey } from '../src/lib/date';
+import { toDateKey, normalizeDateKey, addDays, isValidDateKey } from '../src/lib/date';
+import { EPOCH, RECENT_DAYS } from '../src/config';
 import { items as itemsData, properties as propertiesData, overrides as overridesData } from '../src/data';
 import type { Item, Property, Rule } from '../src/types';
 
@@ -22,8 +23,14 @@ let items: Item[] = structuredClone(itemsData);
 let properties: Property[] = structuredClone(propertiesData);
 let overrides: Record<string, Rule> = structuredClone(overridesData);
 let ctx: Ctx = makeCtx();
-const hashDate = location.hash.slice(1);
-let dateKey = normalizeDateKey(/^\d{4}-\d{2}-\d{2}$/.test(hashDate) ? hashDate : toDateKey(new Date()));
+// Het portaal rekent elke dag vanaf EPOCH door; begrens het bereik zodat een verre datum niet vastloopt.
+const MAX_DATE = addDays(EPOCH, 3650);
+function clampDate(k: string): string | null {
+  if (!isValidDateKey(k)) return null;
+  const n = normalizeDateKey(k);
+  return n > MAX_DATE ? MAX_DATE : n;
+}
+let dateKey = clampDate(location.hash.slice(1)) ?? clampDate(toDateKey(new Date())) ?? EPOCH;
 let builder = { p1: '', n1: false, p2: '', n2: false };
 let builderDate = '';
 
@@ -134,17 +141,46 @@ function problemList(probs: string[], cls = 'problems'): HTMLElement | null {
   return probs.length ? h('ul', { class: cls }, ...probs.map((p) => h('li', {}, p))) : null;
 }
 
+function invalidOverrideDates(): string[] {
+  return Object.entries(overrides)
+    .filter(([, r]) => problemsOf(r).length > 0)
+    .map(([k]) => k)
+    .sort();
+}
+/** Eerdere dagen (binnen RECENT_DAYS) waarvan de puzzel dezelfde regel heeft. */
+function recentConflicts(rule: Rule): string[] {
+  const key = ruleKey(rule);
+  const hits: string[] = [];
+  for (let k = 1; k <= RECENT_DAYS; k++) {
+    const d = addDays(dateKey, -k);
+    if (d < EPOCH) break;
+    try {
+      if (ruleKey(getPuzzle(d, ctx).rule) === key) hits.push(d);
+    } catch {
+      /* onbepaalbare dag: overslaan */
+    }
+  }
+  return hits;
+}
+
 // --- sectie: dagpuzzel ---
 function renderDay(): HTMLElement {
   const sec = h('section', {}, h('h2', {}, 'Dagpuzzel'));
-  const input = h('input', { type: 'date', value: dateKey }) as HTMLInputElement;
+  const input = h('input', { type: 'date', value: dateKey, min: EPOCH, max: MAX_DATE }) as HTMLInputElement;
   input.addEventListener('change', () => {
-    if (!input.value) return;
-    dateKey = normalizeDateKey(input.value);
+    const next = clampDate(input.value);
+    if (!next) return;
+    dateKey = next;
     history.replaceState(null, '', '#' + dateKey);
     render();
   });
   sec.append(h('div', { class: 'row' }, h('label', {}, 'Datum: ', input)));
+  const invalidDates = invalidOverrideDates();
+  if (invalidDates.length) {
+    sec.append(
+      h('div', { class: 'warn' }, 'Ongeldige overrides (vallen terug op een gegenereerde puzzel): ' + invalidDates.join(', ')),
+    );
+  }
 
   const box = h('div', { class: 'box' });
   try {
@@ -152,6 +188,15 @@ function renderDay(): HTMLElement {
     const matching = matchIds(puzzle.rule, items);
     const game = newGame(puzzle, items);
     const probs = problemsOf(puzzle.rule);
+    const savedOverride = overrides[dateKey];
+    const brokenOverride = dateKey in overrides && !puzzle.isOverride;
+    if (brokenOverride) {
+      box.append(
+        h('div', { class: 'warn' }, 'Override voor deze datum is ongeldig:'),
+        problemList(problemsOf(savedOverride), 'warn') ?? h('div', { class: 'warn' }, 'Onbekend probleem.'),
+        h('div', { class: 'warn' }, 'Hieronder zie je de gegenereerde puzzel die nu wordt gebruikt.'),
+      );
+    }
     box.append(
       h('div', {}, `Puzzel #${puzzle.number} (${puzzle.dateKey}) - `, puzzle.isOverride ? 'override' : 'gegenereerd'),
       h('div', {}, h('strong', {}, `Regel: ${safeDescribe(puzzle.rule)}`)),
@@ -167,7 +212,7 @@ function renderDay(): HTMLElement {
     if (pl) box.append(pl);
     if (builderDate !== dateKey) {
       builderDate = dateKey;
-      loadBuilderFrom(puzzle.rule);
+      loadBuilderFrom(brokenOverride ? savedOverride : puzzle.rule);
     }
   } catch (e) {
     box.append(h('div', { class: 'problems' }, `Kon puzzel niet bepalen: ${e instanceof Error ? e.message : String(e)}`));
@@ -202,12 +247,22 @@ function renderBuilder(): HTMLElement {
   let probs: string[] = ['Kies een eerste eigenschap.'];
   if (rule) {
     probs = problemsOf(rule);
+    const recent = recentConflicts(rule);
     const matching = matchIds(rule, items).length;
     box.append(
       h('div', {}, h('strong', {}, `Regel: ${safeDescribe(rule)}`)),
       h('div', {}, `Moeilijkheid: ${difficultyOf(rule)} - voldoen: ${matching}, voldoen niet: ${items.length - matching}`),
       probs.length ? h('div', {}, 'Problemen:') : h('div', { class: 'muted' }, 'Geen problemen.'),
     );
+    if (recent.length) {
+      box.append(
+        h(
+          'div',
+          { class: 'warn' },
+          `Let op: dezelfde regel was al de puzzel op ${recent.join(', ')} (binnen ${RECENT_DAYS} dagen). Opslaan mag nog wel.`,
+        ),
+      );
+    }
   } else {
     box.append(h('div', { class: 'muted' }, 'Nog geen regel.'));
   }

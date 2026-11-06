@@ -99,6 +99,20 @@ describe('game persistence', () => {
       JSON.stringify({ ...doneState(), outcome: undefined }),
       JSON.stringify({ ...examState(), phase: 'done' }),
       JSON.stringify({ ...doneState(), outcome: { correct: 1 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, testsLeft: 11 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, testsLeft: -1 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, testsLeft: 2.5 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, correct: 9 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, score: -1 } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, perfect: 'yes' } }),
+      JSON.stringify({ ...doneState(), outcome: { ...doneState().outcome, total: '8' } }),
+      JSON.stringify({ ...examState(), examItemIds: [] }),
+      JSON.stringify({ ...examState(), examItemIds: ['i1', 'i2'] }),
+      JSON.stringify({ ...doneState(), examItemIds: ['i1'] }),
+      JSON.stringify({
+        ...examState(),
+        tests: Array.from({ length: 11 }, (_, i) => ({ itemId: 't' + i, result: true })),
+      }),
     ];
     for (const raw of bad) {
       const s = fakeStore();
@@ -125,6 +139,7 @@ describe('isValidGameState', () => {
   it('accepts valid states and rejects junk', () => {
     expect(isValidGameState(examState())).toBe(true);
     expect(isValidGameState(doneState())).toBe(true);
+    expect(isValidGameState({ ...examState(), phase: 'testing', examItemIds: [] })).toBe(true);
     expect(isValidGameState(null)).toBe(false);
     expect(isValidGameState('x')).toBe(false);
     expect(isValidGameState({})).toBe(false);
