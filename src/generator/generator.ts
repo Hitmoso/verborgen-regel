@@ -1,4 +1,4 @@
-﻿import { EPOCH, RECENT_DAYS } from '../config';
+import { EPOCH, RECENT_DAYS } from '../config';
 import { items, overrides, properties } from '../data';
 import { addDays, dayIndex, normalizeDateKey, puzzleNumber } from '../lib/date';
 import { hashString, mulberry32 } from '../lib/rng';

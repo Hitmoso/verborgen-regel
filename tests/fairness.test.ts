@@ -1,4 +1,4 @@
-﻿import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { enumerateCandidates, validateRule } from '../src/generator/fairness';
 import type { Item, Property, Rule } from '../src/types';
 

@@ -1,4 +1,4 @@
-﻿import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { fairCandidates, validateRule } from '../src/generator/fairness';
 import { getPuzzle } from '../src/generator/generator';
 import { items, properties } from '../src/data';

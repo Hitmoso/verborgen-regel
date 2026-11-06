@@ -1,4 +1,4 @@
-﻿import { MIN_SIDE } from '../config';
+import { MIN_SIDE } from '../config';
 import { literalCount, matchIds, ruleKey } from '../rules/rule';
 import type { Item, Property, Rule } from '../types';
 
