@@ -22,7 +22,8 @@ let items: Item[] = structuredClone(itemsData);
 let properties: Property[] = structuredClone(propertiesData);
 let overrides: Record<string, Rule> = structuredClone(overridesData);
 let ctx: Ctx = makeCtx();
-let dateKey = normalizeDateKey(toDateKey(new Date()));
+const hashDate = location.hash.slice(1);
+let dateKey = normalizeDateKey(/^\d{4}-\d{2}-\d{2}$/.test(hashDate) ? hashDate : toDateKey(new Date()));
 let builder = { p1: '', n1: false, p2: '', n2: false };
 let builderDate = '';
 
@@ -49,6 +50,12 @@ function setStatus(msg: string, ok = true): void {
   const s = document.getElementById('status')!;
   s.textContent = msg;
   s.className = 'status ' + (ok ? 'ok' : 'err');
+  // Overleeft een (HMR-)herlading na het opslaan; wordt eenmalig getoond bij het laden.
+  try {
+    if (ok) sessionStorage.setItem('portal:flash', msg);
+  } catch {
+    /* sessionStorage niet beschikbaar */
+  }
 }
 
 async function save(file: 'items' | 'properties' | 'overrides', data: unknown): Promise<boolean> {
@@ -134,6 +141,7 @@ function renderDay(): HTMLElement {
   input.addEventListener('change', () => {
     if (!input.value) return;
     dateKey = normalizeDateKey(input.value);
+    history.replaceState(null, '', '#' + dateKey);
     render();
   });
   sec.append(h('div', { class: 'row' }, h('label', {}, 'Datum: ', input)));
@@ -421,4 +429,15 @@ function render(): void {
 }
 
 document.getElementById('banner')!.textContent = BANNER;
+history.replaceState(null, '', '#' + dateKey);
 render();
+try {
+  const flash = sessionStorage.getItem('portal:flash');
+  if (flash) {
+    sessionStorage.removeItem('portal:flash');
+    setStatus(flash);
+    sessionStorage.removeItem('portal:flash'); // setStatus bewaart hem opnieuw
+  }
+} catch {
+  /* sessionStorage niet beschikbaar */
+}

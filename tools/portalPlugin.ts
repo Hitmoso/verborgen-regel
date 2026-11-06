@@ -9,6 +9,38 @@ function isPlainObject(v: unknown): v is Record<string, unknown> {
   return typeof v === 'object' && v !== null && !Array.isArray(v);
 }
 
+function isRule(v: unknown): boolean {
+  if (!isPlainObject(v)) return false;
+  if (v.t === 'prop') return typeof v.id === 'string';
+  if (v.t === 'not') return isRule(v.r);
+  if (v.t === 'and') return isRule(v.a) && isRule(v.b);
+  return false;
+}
+
+/** Controleert methode, pad, Content-Type en Origin. Geeft een fout of null (= doorgaan). */
+export function checkRequest(
+  method: string | undefined,
+  url: string | undefined,
+  headers: Record<string, string | string[] | undefined>,
+): { status: number; error: string } | null {
+  const path = (url ?? '').split('?')[0];
+  if (path !== '/__portal/save') return { status: 404, error: 'Niet gevonden' };
+  if (method !== 'POST') return { status: 405, error: 'Alleen POST' };
+  const origin = headers.origin;
+  if (origin !== undefined) {
+    let host = '';
+    try {
+      host = new URL(String(origin)).host;
+    } catch {
+      /* ongeldige origin: afgewezen hieronder */
+    }
+    if (!host || host !== headers.host) return { status: 403, error: 'Origin niet toegestaan' };
+  }
+  const ct = String(headers['content-type'] ?? '').toLowerCase();
+  if (!ct.startsWith('application/json')) return { status: 415, error: 'Content-Type moet application/json zijn' };
+  return null;
+}
+
 /** Valideert vorm en bestandsnaam; schrijft pas daarna naar <rootDir>/src/data/<file>.json. */
 export function applySave(rootDir: string, file: string, data: unknown): void {
   if (!(FILES as readonly string[]).includes(file)) {
@@ -16,6 +48,10 @@ export function applySave(rootDir: string, file: string, data: unknown): void {
   }
   if (file === 'overrides') {
     if (!isPlainObject(data)) throw new Error('overrides moet een object zijn');
+    for (const [k, v] of Object.entries(data)) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(k)) throw new Error(`Ongeldige datum: ${k}`);
+      if (!isRule(v)) throw new Error(`Ongeldige regel voor ${k}`);
+    }
   } else {
     if (!Array.isArray(data) || !data.every(isPlainObject)) {
       throw new Error(`${file} moet een array van objecten zijn`);
@@ -34,13 +70,16 @@ export function portalPlugin(): Plugin {
       root = config.root;
     },
     configureServer(server) {
-      server.middlewares.use('/__portal/save', (req, res) => {
+      server.middlewares.use((req, res, next) => {
+        const path = (req.url ?? '').split('?')[0];
+        if (path !== '/__portal/save') return next();
         const send = (status: number, body: unknown) => {
           res.statusCode = status;
           res.setHeader('Content-Type', 'application/json');
           res.end(JSON.stringify(body));
         };
-        if (req.method !== 'POST') return send(405, { error: 'Alleen POST' });
+        const bad = checkRequest(req.method, req.url, req.headers);
+        if (bad) return send(bad.status, { error: bad.error });
         const chunks: Buffer[] = [];
         let size = 0;
         let aborted = false;
