@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verborgen Regel - Developerportaal</title>
+    <style>
+      body { font: 15px/1.45 system-ui, sans-serif; max-width: 1000px; margin: 0 auto; padding: 16px; color: #222; }
+      h1 { font-size: 1.4rem; margin: 0 0 8px; }
+      h2 { font-size: 1.1rem; margin: 24px 0 8px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+      .banner { background: #fff3cd; border: 1px solid #e0c36a; padding: 8px 12px; border-radius: 6px; }
+      .status { min-height: 1.4em; margin: 8px 0; font-weight: 600; }
+      .status.ok { color: #1a7f37; }
+      .status.err { color: #b42318; }
+      .problems { color: #b42318; margin: 4px 0; padding-left: 20px; }
+      .warn { color: #8a5a00; margin: 4px 0; padding-left: 20px; }
+      .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 6px 0; }
+      .box { background: #f6f6f6; border-radius: 6px; padding: 10px 12px; margin: 8px 0; }
+      .chips span { display: inline-block; background: #fff; border: 1px solid #ccc; border-radius: 12px; padding: 1px 8px; margin: 2px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 2px 12px; margin: 8px 0; }
+      details { border: 1px solid #ddd; border-radius: 4px; padding: 4px 8px; margin: 3px 0; }
+      summary { cursor: pointer; }
+      input[type="text"] { padding: 3px 6px; }
+      button { padding: 4px 10px; cursor: pointer; }
+      button:disabled { cursor: not-allowed; }
+      .muted { color: #666; }
+    </style>
+  </head>
+  <body>
+    <h1>Verborgen Regel - Developerportaal</h1>
+    <p class="banner" id="banner"></p>
+    <div class="status" id="status" role="status"></div>
+    <div id="app"></div>
+    <script type="module" src="./portal.ts"></script>
+  </body>
+</html>
