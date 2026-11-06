@@ -55,4 +55,4 @@ De overhoring loopt via de interface `GuessMethod` in `src/game/guess.ts` (`id`,
 
 ## Publiceren
 
-Draai `npm run build` en upload de map `dist/` naar een statische host, bijvoorbeeld Netlify of GitHub Pages. Staat de site op een subpad (zoals bij GitHub Pages), dan heb je mogelijk de `base`-optie van Vite nodig in `vite.config.ts`.
+De site staat op GitHub Pages. Elke push naar `main` draait automatisch de tests, bouwt de site en publiceert `dist/` (zie `.github/workflows/deploy.yml`). Falen de tests, dan wordt er niets gepubliceerd. Vite gebruikt relatieve paden (`base: './'`), dus de build werkt ook op een subpad. Handmatig kan ook: `npm run build` en upload `dist/` naar een andere statische host.
