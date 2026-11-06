@@ -26,7 +26,7 @@ export type Actions = {
 let query = '';
 
 function norm(s: string): string {
-  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
 function el<K extends keyof HTMLElementTagNameMap>(

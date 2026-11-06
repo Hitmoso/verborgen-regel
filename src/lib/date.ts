@@ -54,3 +54,8 @@ export function msUntilNextPuzzle(now: Date): number {
 export function addDays(dateKey: string, n: number): string {
   return new Date(utcMs(dateKey) + n * DAY_MS).toISOString().slice(0, 10);
 }
+
+/** True when the (normalised) current day differs from the puzzle's day. */
+export function isNewDay(puzzleKey: string, now: Date): boolean {
+  return normalizeDateKey(toDateKey(now)) !== puzzleKey;
+}

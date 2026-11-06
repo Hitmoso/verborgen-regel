@@ -12,7 +12,7 @@ import {
 } from './game/game';
 import { describe } from './rules/rule';
 import { buildShareText } from './game/share';
-import { toDateKey, msUntilNextPuzzle } from './lib/date';
+import { toDateKey, msUntilNextPuzzle, isNewDay } from './lib/date';
 import { loadGame, saveGame, recordCompletion, loadStreak, currentStreak } from './storage/storage';
 import { TEST_BUDGET } from './config';
 import { render, type ViewModel, type Actions } from './ui/render';
@@ -52,6 +52,13 @@ function view(): ViewModel {
   };
 }
 
+/** Reload when the (normalised) day changed since load; true if reloading. */
+function reloadIfNewDay(): boolean {
+  if (!isNewDay(puzzle.dateKey, new Date())) return false;
+  location.reload();
+  return true;
+}
+
 function stopTimer(): void {
   if (timer !== undefined) {
     clearInterval(timer);
@@ -65,10 +72,7 @@ function draw(): void {
   if (state.phase === 'done') {
     timer = window.setInterval(() => {
       const ms = msUntilNextPuzzle(new Date());
-      if (toDateKey(new Date()) !== puzzle.dateKey || ms <= 0) {
-        location.reload();
-        return;
-      }
+      if (reloadIfNewDay() || ms <= 0) return;
       const e = document.getElementById('countdown');
       if (e) e.textContent = formatCountdown(ms);
     }, 1000);
@@ -76,6 +80,7 @@ function draw(): void {
 }
 
 function update(next: GameState): void {
+  if (reloadIfNewDay()) return;
   if (next === state) return;
   const wasDone = state.phase === 'done';
   state = next;
@@ -98,5 +103,12 @@ const actions: Actions = {
     }
   },
 };
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) reloadIfNewDay();
+});
+window.addEventListener('focus', () => {
+  reloadIfNewDay();
+});
 
 draw();

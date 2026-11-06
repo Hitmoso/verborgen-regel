@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+﻿import { describe, it, expect } from 'vitest';
 import { EPOCH } from '../src/config';
 import {
   toDateKey,
@@ -7,6 +7,7 @@ import {
   puzzleNumber,
   msUntilNextPuzzle,
   addDays,
+  isNewDay,
 } from '../src/lib/date';
 
 describe('toDateKey', () => {
@@ -48,5 +49,17 @@ describe('addDays', () => {
   it('rolls over month ends', () => {
     expect(addDays('2026-11-30', 1)).toBe('2026-12-01');
     expect(addDays('2026-12-01', -1)).toBe('2026-11-30');
+  });
+});
+
+describe('isNewDay', () => {
+  it('is false before the epoch (puzzle normalised to EPOCH)', () => {
+    expect(isNewDay(EPOCH, new Date(Date.UTC(2026, 10, 6, 12)))).toBe(false);
+  });
+  it('is false on the same day', () => {
+    expect(isNewDay('2026-11-10', new Date(Date.UTC(2026, 10, 10, 12)))).toBe(false);
+  });
+  it('is true after a real day change', () => {
+    expect(isNewDay('2026-11-10', new Date(Date.UTC(2026, 10, 11, 12)))).toBe(true);
   });
 });

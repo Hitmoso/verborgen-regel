@@ -1,4 +1,5 @@
-:root {
+﻿:root {
+  color-scheme: light dark;
   --bg: #fafaf7;
   --fg: #1c1c1e;
   --muted: #666a70;
